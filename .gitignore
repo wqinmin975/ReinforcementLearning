@@ -1,0 +1,25 @@
+# Model weights (large binaries, fully reproducible by re-running)
+checkpoints/
+*.pt
+*.pth
+*.pkl
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Paper LaTeX/PDF build, internal tooling, IDE
+.workbuddy/
+output/
+*.docx
+
+# Internal scratch
+tmp_*/
+tmp_*.txt
+_proc_check.json
+
+# Large raw per-seed dump (reproducible by re-running measurement scripts)
+exp_results/bit_profile_perseed.csv

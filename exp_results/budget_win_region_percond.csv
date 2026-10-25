@@ -1,0 +1,7 @@
+B,n_conditions_with_feasible,wins_PPO,wins_DQN,wins_Fixed,wins_EqualGran
+110,9,8,1,0,0
+120,15,9,6,0,0
+143,16,2,14,0,0
+200,16,1,15,0,0
+288,16,0,0,0,16
+300,16,0,0,0,16

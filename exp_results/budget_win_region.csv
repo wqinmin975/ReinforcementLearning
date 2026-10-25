@@ -1,0 +1,7 @@
+B,feasible,best,best_recall,n_feasible
+110,(none),(infeasible),,0
+120,PPO (proposed),PPO (proposed),0.2413,1
+143,"PPO (proposed), Double-DQN, Fixed policy",Double-DQN,0.2888,3
+200,"PPO (proposed), Double-DQN, Fixed policy",Double-DQN,0.2888,3
+288,"PPO (proposed), Double-DQN, Fixed policy, EqualGran",EqualGran,0.363,4
+300,"PPO (proposed), Double-DQN, Fixed policy, EqualGran",EqualGran,0.363,4
