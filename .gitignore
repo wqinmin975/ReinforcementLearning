@@ -1,9 +1,3 @@
-# Model weights (large binaries, fully reproducible by re-running)
-checkpoints/
-*.pt
-*.pth
-*.pkl
-
 # Logs
 *.log
 
@@ -16,10 +10,13 @@ __pycache__/
 output/
 *.docx
 
-# Internal scratch
+# Internal scratch / binaries not for publication
 tmp_*/
 tmp_*.txt
 _proc_check.json
+*.pth
+*.pkl
 
-# Large raw per-seed dump (reproducible by re-running measurement scripts)
-exp_results/bit_profile_perseed.csv
+# NOTE: trained model checkpoints (exp_results/checkpoints/*.pt) and the raw
+# per-seed bit-profile dump (exp_results/bit_profile_perseed.csv) ARE published
+# via Git LFS — see .gitattributes. They are intentionally NOT ignored.
